@@ -92,7 +92,7 @@ public class StringSplit implements Serializable {
 		
 		// Primary key 저장;
 		if(primaryKeysList.size() == 0) {
-			throw new Exception("Create table has failed: primary key definition does not exist");
+//			throw new Exception("Create table has failed: primary key definition does not exist");
 		}else {
 			String[] pSplitted = primaryKeysList.get(0).split("@");
 			for (int i = 0; i < pSplitted.length; i++) {
